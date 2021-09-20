@@ -1,0 +1,25 @@
+-> npm start 
+    - npm runs the start script that is contained in the package. 
+    - if there is no pre-defined 'start' script in the package, node server.js will run.
+-> NPM is a software registry. It's an open source registry which allows
+    programmers to share and borrow packages
+    - NPM = "Node Package Manager" --> runs react.js applications 
+    
+-> 'npx create-react-app projName' will create a node.js package named projName   
+    - npx = 'Node Package Execute'
+    - npx is a package runner that will execute any package from NPM registry without installing it
+
+
+-> ifconfig : terminal command to show localhost IP address and WAN IP address    
+-> localhost IP address is ur computer's own address that is visible to itself only
+-> LAN/WAN/wireless IP address is ur computer's address that's visible to other devices on the network  
+
+-> Node is component-based coding
+    - we re-use component templates in app.js by passing in different props (properties)
+    - components are declared with first letter capitalized
+
+-> 'State' is how we write variables in react
+
+-> css: transform: transition 450 ms 
+    - this will transition the item whenever the size changes
+    - image will change between sizes within 450 ms

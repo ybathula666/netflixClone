@@ -1,0 +1,44 @@
+
+.row_posters{
+    display: flex;
+
+    overflow-y: hidden;  /* hides up-down scroll bar for the poster rows */
+    overflow-x: scroll; /* appends side-to-side scroll bar for each poster row*/
+    padding: 10px;
+    
+}
+
+.row_posters::-webkit-scrollbar{
+    display: none;  /* doesn't display scroll bar, but keeps functionality */
+}
+
+.a_row_poster{
+    object-fit: contain;
+    width: 100%;
+    max-height: 250px;
+    margin-right: 10px;
+    transition: transform 450ms;
+}
+
+.a_row_poster:hover{
+    transform: scale(1.09);
+    
+}
+
+.a_row_banner{
+    object-fit: contain;
+    width: 100%;
+    max-height: 100px;
+    margin-right: 10px;
+    transition: transform 450ms;
+}
+
+.a_row_banner:hover{
+    transform: scale(1.07);
+    
+}
+
+.row{
+    margin: 20px;
+    color:white;
+}
